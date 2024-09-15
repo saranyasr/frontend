@@ -1,0 +1,44 @@
+/* TaskModal.css */
+.task-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .task-modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .task-modal-content p {
+    margin: 0.5rem 0;
+  }
+  
+  .task-modal-content button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .task-modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
